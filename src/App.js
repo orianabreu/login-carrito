@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import "./main.scss";
 import Carrito from "./components/Carrito/Carrito";
 import LoginReducer from "./components/LoginReducer/LoginReducer";
 import CartContext from "./context/CartContext";

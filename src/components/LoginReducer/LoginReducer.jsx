@@ -94,7 +94,7 @@ export default function LoginReducer() {
           <ProductsList />
         </>
       ) : (
-        <form onSubmit={onSubmit}>
+        <form onSubmit={onSubmit} className="form-container">
           {error && <p>{error}</p>}
           <p>Please login!</p>
           <input
